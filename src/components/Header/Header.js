@@ -5,9 +5,10 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header'>
-            <Link to='/about'>About</Link>
             <Link to='/home'>Home</Link>
             <Link to='/products'>Products</Link>
+            <Link to='/friends'>Friends</Link>
+            <Link to='/about'>About</Link>
         </div>
     );
 };
